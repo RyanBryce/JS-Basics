@@ -64,17 +64,19 @@ function getName(){
 
 
 //Create a function called myName that returns your name
-
   //Code Here
-
+function myName (){
+  return 'ryan';
+}
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
+  var newMyName = myName;
 
 //Now alert the result of invoking newMyName
-
+  var result = newMyName();
+  alert(result);
 
 
 //////////////////PROBLEM 7////////////////////
@@ -83,10 +85,15 @@ function getName(){
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
-  //Code Here
-
+  function outerFn(){
+    return function () {
+      return "ryan";
+    }
+}
 //Now save the result of invoking outerFn into a variable called innerFn.
+var innerFn = outerFn();
 
-  //Code Here
+
 
 //Now invoke innerFn.
+innerFn();
