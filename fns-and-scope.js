@@ -44,19 +44,30 @@ function getName(){
 
 
 //What is the difference between arguments and parameters?
+ // A parameter is a variable in a method definition. When a method is called, the arguments are the data you pass into the method's parameters.
 
-  //Answer Here
 
 
 //////////////////PROBLEM 5////////////////////
 
 
 
-//What are all the falsy values in JavaScript and how do you check if something is falsy?
-
-
-  //Answer Here
-
+// //What are all the falsy values in JavaScript and how do you check if something is falsy?
+// if (false)
+// if (null)
+// if (undefined)
+// if (0)
+// if (NaN)
+// if ('')
+// if ("")
+// if (document.all) [1]
+//
+//   //Answer Here
+// console.log and or try to return false/true
+//var c = (false == 0); // true
+// var c = (false == 0); // true
+// var d = (false == ""); // true
+// var e = (0 == ""); // true
 
 
 //////////////////PROBLEM 6////////////////////
